@@ -19,7 +19,7 @@ import Footer from '@/components/Footer/Footer'
 export default function Home() {
 
     const [text, setText] = useState('');
-    const originalText = `¡Hola! Soy Joan Sebastian Giraldo Morales, Soy ingeniero de sistemas, FullStack, me encanta el desarrollo de aplicaciones moviles, web y de escritorio, Aqui en mi portafolio web podrás encontrar algunos de mis proyectos destacados, Conocer que tecnologias he manejado y mis rutas de aprendisaje.`
+    const originalText = `¡Hola! Soy Joan Sebastian Giraldo Morales, soy ingeniero de sistemas, fullStack, me encanta el desarrollo de aplicaciones moviles, web y de escritorio, aqui en mi portafolio web podrás encontrar algunos de mis proyectos destacados, conocer que tecnologias he manejado y mis rutas de aprendizaje.`
     const [Cursos, setCursos] = useState('');
     const Lista_cursos = `
     - Curso de Programación Básica
