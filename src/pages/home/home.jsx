@@ -15,7 +15,7 @@ import github from '../../../public/icons/techs/github.svg'
 import figma from '../../../public/icons/techs/figma.svg'
 import laravel from '../../../public/icons/techs/laravel.svg'
 
-import whatsApp from '../../../public/icons/proyects/whatsApp.svg'
+import whatsApp from '../../../public/icons/proyects/whatsapp.svg'
 
 import Footer from '@/components/Footer/Footer'
 import Link from 'next/link'
