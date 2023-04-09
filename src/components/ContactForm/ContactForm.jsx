@@ -9,7 +9,7 @@ const [state, handleSubmit] = useForm("mayzlywo");
 if (state.succeeded) {
     return(
       <>
-        <div className='w-full h-auto py-10'>
+        <div className='w-full h-scrren  py-10'>
           <div className='mx-auto py-4 max-w-lg bg-green-500 text-white px-4 text-center'>
             Su mensaje ha sido enviado, gracias por ponerte en contacto con nosotros.
           </div>
