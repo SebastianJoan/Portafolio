@@ -74,7 +74,7 @@ export default function Home() {
         <>
             <Appbar/>
             <div className='w-full h-auto p-8 py-4 gap-5 bg-gray-800 font-mono flex flex-col md:flex-row justify-center items-center justify-items-center'>
-                <div className='md:w-[15%] w-full rounded-full overflow-hidden h-auto flex justify-center items-center justify-items-center'>
+                <div className='md:w-[15%] w-[50%] rounded-full overflow-hidden h-auto flex justify-center items-center justify-items-center'>
                     <Image
                         src={avatar}
                         alt="Imagen de perfil"
@@ -111,62 +111,62 @@ export default function Home() {
                     <div className='w-full h-auto bg-black text-center rounded-t-lg md:px-4 py-1'>
                         C/Windows/System32/technologies.exe
                     </div>
-                    <div className='bg-black p-4 rounded-b-lg animate-typing flex md:flex-row flex-col animate-duration-500 justify-between overflow-hidden w-auto h-auto px-4 py-2'>
+                    <div className='bg-black p-4 rounded-b-lg animate-typing flex md:flex-row flex-col animate-duration-500 justify-between items-center justify-items-center gap-5 overflow-hidden w-auto h-auto px-4 py-2'>
                         <Image
                             src={dart}
                             alt="dart Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-full'
+                            className='object-cover  md:w-[120px] md:h-[120p] w-[50%]'
                         />
                         <Image
                             src={flutter}
                             alt="flutter Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-full'
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%]'
                         />
                         <Image
                             src={js}
                             alt="js Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-full'
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%]'
                         />
                         <Image
                             src={mysql}
                             alt="mysql Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-full'
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%]'
                         />
                         <Image
                             src={nodejs}
                             alt="nodejs Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-full'
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%]'
                         />
                         <Image
                             src={react}
                             alt="react Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-full'
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%]'
                         />
                         <Image
                             src={github}
                             alt="github Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-full bg-white rounded-full'
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%] bg-white rounded-full'
                         />
                         <Image
                             src={figma}
                             alt="figma Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-full'
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%]'
                         />
                     </div>
                 </div>
