@@ -20,7 +20,7 @@ export default function Proyect() {
         <>
             <Appbar/>
             <div className="w-full h-[477px] bg-gray-800 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-4 gap-4">
-                <div onClick={ () => clickHandle() } className='bg-[#111b21] cursor-pointer shadow-md shadow-[#111b21] w-auto h-[250px] py-4 md:h-[150px] flex flex-col md:flex-row justify-center items-center justify-items-center gap-5'>
+                <div onClick={ () => clickHandle() } className='bg-[#111b21] cursor-pointer shadow-md shadow-[#111b21] w-auto h-[250px] py-8 md:h-[150px] flex flex-col md:flex-row justify-center items-center justify-items-center gap-5'>
                     <Image
                         src={whatsapp_icon}
                         alt="icon_proyect"
