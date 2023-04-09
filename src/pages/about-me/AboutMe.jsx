@@ -22,7 +22,7 @@ export default function AboutMe() {
     return (
         <>
             <Appbar/>
-            <div className='bg-gray-800 w-full md:h-[477px] h-auto flex justify-center items-center justify-items-center'>
+            <div className='bg-gray-800 w-full md:h-[477px] h-screen flex justify-center items-center justify-items-center'>
                 <div className='flex flex-col mx-auto md:flex-row justify-center gap-5 items-center justify-items-center'>
                     <Image
                         src={avatar}
