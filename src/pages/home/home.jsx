@@ -13,8 +13,12 @@ import nodejs from '../../../public/icons/techs/nodejs.svg'
 import react from '../../../public/icons/techs/react.svg'
 import github from '../../../public/icons/techs/github.svg'
 import figma from '../../../public/icons/techs/figma.svg'
+import laravel from '../../../public/icons/techs/laravel.svg'
+
+import whatsApp from '../../../public/icons/proyects/whatsApp.svg'
 
 import Footer from '@/components/Footer/Footer'
+import Link from 'next/link'
 
 export default function Home() {
 
@@ -73,6 +77,15 @@ export default function Home() {
     return (
         <>
             <Appbar/>
+            <Link target='blanck' href='https://api.whatsapp.com/send?phone=%2B573158682184&data=AWDhWy7XsHGzFqe2srOG9n2VwjP-H1PgIPnBpfrCIX6GTf0kP6xlJ6iE8Pof22IlUwL21bm3PpV6FBMYX7MywRc3FWYgmadAGqtdsp7QTgiBKaItm8RoGaHbynxg32aiAdQeQ5tCzRyG7QzmeXj0yRVsFp7h2aszKXyh8_zuqGgEirR47iX916b2n2msk7SY5E7DKyLu1u9jEDnwdrVAML8J4oMT7tBIhxCiLL5rKPPd1HVCM3vgqHz9iFZIHVrQCraNVSEAvoL1YK6oQDUa9EynhzSvXeUJPG4u2S07XCY0miN2fJA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3TKLvjiByNeNPnQ8GFHYmWNJfa1IHdOLMlUBnRCjjJ-ofIV9cwtNGYycs'  className='fixed w-16 h-16 top-[87%] left-[75%] md:left-[90%] bg-green-500 rounded-full cursor-pointer'>
+                <Image
+                    src={whatsApp}
+                    alt="WhatsApp"
+                    width={512}
+                    height={512}
+                    className='object-cover'
+                />
+            </Link>
             <div className='w-full h-auto p-8 py-4 gap-5 bg-gray-800 font-mono flex flex-col md:flex-row justify-center items-center justify-items-center'>
                 <div className='md:w-[15%] w-[50%] rounded-full overflow-hidden h-auto flex justify-center items-center justify-items-center'>
                     <Image
@@ -164,6 +177,13 @@ export default function Home() {
                         <Image
                             src={figma}
                             alt="figma Logo"
+                            width={120}
+                            height={120}
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%]'
+                        />
+                        <Image
+                            src={laravel}
+                            alt="laravel Logo"
                             width={120}
                             height={120}
                             className='object-cover md:w-[120px] md:h-[120p] w-[50%]'
