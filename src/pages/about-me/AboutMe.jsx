@@ -35,7 +35,7 @@ export default function AboutMe() {
                         <Link href="/docs/CVINGLES.pdf" target='blanck' download='CVINGLES.pdf' className='w-auto h-auto px-4 py-2 bg-white hover:text-white hover:bg-black text-black rounded-md'>
                             Descargar CV Ingles
                         </Link>   
-                        <Link href="/docs/CVESPAÑOL.pdf" target='blanck' download='CVESPAÑOL.pdf' className='w-auto h-auto px-4 py-2 bg-white hover:text-white hover:bg-black text-black rounded-md'>
+                        <Link href="/docs/CVSPAIN.pdf" target='blanck' download='CVSPAIN.pdf' className='w-auto h-auto px-4 py-2 bg-white hover:text-white hover:bg-black text-black rounded-md'>
                             Descargar CV Español
                         </Link>    
                     </div>
