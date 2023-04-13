@@ -10,7 +10,7 @@ export default function ProyectItem(props) {
     
     return (
         <>
-            <div onClick={ () => clickHandle() } className='bg-[#111b21] cursor-pointer shadow-md shadow-[#111b21] w-auto h-[250px] py-8 md:h-[150px] flex flex-col md:flex-row justify-center items-center justify-items-center gap-5'>
+            <div onClick={ () => clickHandle() } className=' scale-90 hover:scale-110 ease-in duration-500  bg-[#111b21] cursor-pointer shadow-md shadow-[#111b21] w-auto h-[250px] py-8 md:h-[150px] flex flex-col md:flex-row justify-center items-center justify-items-center gap-5'>
                 <Image
                     src={proyect_icon}
                     alt="icon_proyect"
