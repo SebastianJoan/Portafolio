@@ -11,6 +11,7 @@ import mysql from '../../../public/icons/techs/mysql.svg'
 import laravel from '../../../public/icons/techs/laravel.svg'
 
 import whatsapp_icon from '../../../public/icons/proyects/whatsapp.svg'
+import ceas_icon from '../../../public/icons/proyects/LogoCeas.jpg'
 import react from '../../../public/icons/techs/react.svg'
 import tailwindcss from '../../../public/icons/techs/tailwind.svg'
 
@@ -24,6 +25,26 @@ export default function Proyect() {
         <>
             <Appbar/>
             <div className="w-full h-auto bg-gray-800 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-4 gap-4">
+                <ProyectItem tittle = 'CEAS' proyect_icon = {ceas_icon} url="https://ceas.vercel.app" >
+                    <Link target='blanck' href='https://es.reactjs.org' className='w-1/2 flex justify-center items-center justify-items-center'>
+                        <Image
+                            src={react}
+                            alt="react"
+                            width={60}
+                            height={60}
+                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
+                        />
+                    </Link>  
+                    <Link target='blanck' href="https://tailwindcss.com" className='w-1/2 flex justify-center items-center justify-items-center'>
+                        <Image
+                            src={tailwindcss}
+                            alt="tailwindcss"
+                            width={60}
+                            height={60}
+                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
+                        />
+                    </Link>
+                </ProyectItem>
                 <ProyectItem tittle = ' WhatsApp Clone (Frontend) ' proyect_icon = {whatsapp_icon} url="https://portafolio-web-01-rdrx36yhh-birdstudio.vercel.app" >
                     <Link target='blanck' href='https://es.reactjs.org' className='w-1/2 flex justify-center items-center justify-items-center'>
                         <Image
