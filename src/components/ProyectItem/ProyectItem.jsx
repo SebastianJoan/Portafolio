@@ -22,7 +22,7 @@ export default function ProyectItem(props) {
                     <div className='flex flex-col justify-center '>
                         <h3 className='text-white font-bold'> { tittle } </h3>
                         <h3>
-                            Technologias:
+                            Tecnologías:
                         </h3>
                     </div>
                     <div className='flex justify-between w-full gap-4'>
