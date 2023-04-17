@@ -25,7 +25,7 @@ export default function Proyect() {
         <>
             <Appbar/>
             <div className="w-full h-auto bg-gray-800 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-4 gap-4">
-                <ProyectItem tittle = 'CEAS' proyect_icon = {ceas_icon} url="https://ceas.vercel.app" >
+                {/* <ProyectItem tittle = 'CEAS' proyect_icon = {ceas_icon} url="https://ceas.vercel.app" >
                     <Link target='blanck' href='https://es.reactjs.org' className='w-1/2 flex justify-center items-center justify-items-center'>
                         <Image
                             src={react}
@@ -64,7 +64,7 @@ export default function Proyect() {
                             className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
                         />
                     </Link>
-                </ProyectItem>
+                </ProyectItem> */}
                 <ProyectItem tittle = ' Ecoparque Diamante ' proyect_icon = {diamante} url="https://www.ecoparquediamante.com" >
                     <Link target='blanck' href='https://es.reactjs.org' className='w-1/2 flex justify-center items-center justify-items-center'>
                         <Image
