@@ -15,16 +15,16 @@ export function Appbar(props) {
                     <div className="flex items-center justify-end h-16">
                         <div className="hidden md:block">
                             <div className="ml-4 flex items-center gap-5 md:ml-6">
-                                <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-white hover:text-gray-800">
+                                <Link href="/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-[#ffffff] hover:text-gray-800">
                                     Inicio
                                 </Link>
-                                <Link href="/about-me/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-white hover:text-gray-800">
+                                <Link href="/about-me/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-[#ffffff] hover:text-gray-800">
                                     Sobre Mi
                                 </Link>
-                                <Link href="/proyects/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-white hover:text-gray-800">
+                                <Link href="/proyects/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-[#ffffff] hover:text-gray-800">
                                     Portafolio
                                 </Link>
-                                <Link href="/contact" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-white hover:text-gray-800">
+                                <Link href="/contact" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-[#ffffff] hover:text-gray-800">
                                     Contacto
                                 </Link> 
                             </div>
@@ -95,7 +95,7 @@ export function Appbar(props) {
                         </Link>
                     </div>
                     <div className='px-2 pt-2 pb-3 space-y-1 sm:px-3'>
-                        <Link href="/proyects/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-white hover:text-gray-800">
+                        <Link href="/proyects/" className="px-3 py-2 rounded-md text-sm font-medium text-white hover:bg-[#ffffff] hover:text-gray-800">
                             Portafolio
                         </Link>
                     </div>

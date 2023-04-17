@@ -77,7 +77,7 @@ export default function Home() {
     return (
         <>
             <Appbar/>
-            <Link target='blanck' href='https://api.whatsapp.com/send?phone=%2B573158682184&data=AWDhWy7XsHGzFqe2srOG9n2VwjP-H1PgIPnBpfrCIX6GTf0kP6xlJ6iE8Pof22IlUwL21bm3PpV6FBMYX7MywRc3FWYgmadAGqtdsp7QTgiBKaItm8RoGaHbynxg32aiAdQeQ5tCzRyG7QzmeXj0yRVsFp7h2aszKXyh8_zuqGgEirR47iX916b2n2msk7SY5E7DKyLu1u9jEDnwdrVAML8J4oMT7tBIhxCiLL5rKPPd1HVCM3vgqHz9iFZIHVrQCraNVSEAvoL1YK6oQDUa9EynhzSvXeUJPG4u2S07XCY0miN2fJA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3TKLvjiByNeNPnQ8GFHYmWNJfa1IHdOLMlUBnRCjjJ-ofIV9cwtNGYycs'  className='fixed w-16 h-16 top-[87%] left-[75%] md:left-[90%] bg-green-500 rounded-full cursor-pointer'>
+            <Link target='blanck' href='https://api.whatsapp.com/send?phone=%2B573163003181&data=AWDhWy7XsHGzFqe2srOG9n2VwjP-H1PgIPnBpfrCIX6GTf0kP6xlJ6iE8Pof22IlUwL21bm3PpV6FBMYX7MywRc3FWYgmadAGqtdsp7QTgiBKaItm8RoGaHbynxg32aiAdQeQ5tCzRyG7QzmeXj0yRVsFp7h2aszKXyh8_zuqGgEirR47iX916b2n2msk7SY5E7DKyLu1u9jEDnwdrVAML8J4oMT7tBIhxCiLL5rKPPd1HVCM3vgqHz9iFZIHVrQCraNVSEAvoL1YK6oQDUa9EynhzSvXeUJPG4u2S07XCY0miN2fJA&source=FB_Page&app=facebook&entry_point=page_cta&fbclid=IwAR3TKLvjiByNeNPnQ8GFHYmWNJfa1IHdOLMlUBnRCjjJ-ofIV9cwtNGYycs'  className='fixed w-16 h-16 top-[87%] left-[75%] md:left-[90%] bg-green-500 rounded-full cursor-pointer'>
                 <Image
                     src={whatsApp}
                     alt="WhatsApp"
@@ -172,7 +172,7 @@ export default function Home() {
                             alt="github Logo"
                             width={120}
                             height={120}
-                            className='object-cover md:w-[120px] md:h-[120p] w-[50%] bg-white rounded-full'
+                            className='object-cover md:w-[120px] md:h-[120p] w-[50%] bg-[#ffffff] rounded-full'
                         />
                         <Image
                             src={figma}

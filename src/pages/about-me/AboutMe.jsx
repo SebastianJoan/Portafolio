@@ -32,10 +32,10 @@ export default function AboutMe() {
                         className='object-cover md:w-[120px] md:h-[120p] w-full rounded-full'
                     />
                     <div className='flex flex-col justify-center items-center justify-items-center px-4 gap-3'>
-                        <Link href="/docs/CVINGLES.pdf" target='blanck' download='CVINGLES.pdf' className='w-auto h-auto px-4 py-2 bg-white hover:text-white hover:bg-black text-black rounded-md'>
+                        <Link href="/docs/CVINGLES.pdf" target='blanck' download='CVINGLES.pdf' className='w-auto h-auto px-4 py-2 bg-[#ffffff] hover:text-white hover:bg-black text-black rounded-md'>
                             Descargar CV Ingles
                         </Link>   
-                        <Link href="/docs/CVSPAIN.pdf" target='blanck' download='CVSPAIN.pdf' className='w-auto h-auto px-4 py-2 bg-white hover:text-white hover:bg-black text-black rounded-md'>
+                        <Link href="/docs/CVSPAIN.pdf" target='blanck' download='CVSPAIN.pdf' className='w-auto h-auto px-4 py-2 bg-[#ffffff] hover:text-white hover:bg-black text-black rounded-md'>
                             Descargar CV Español
                         </Link>    
                     </div>
