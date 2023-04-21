@@ -37,7 +37,7 @@ return (
           id="email"
           type="email" 
           name="email"       
-          placeholder="ejemplo: correo@ecoparque.com"   
+          placeholder="ejemplo: correo@gmail.com"   
           className="w-full p-2 border border-gray-400 rounded-md"
         />
         <ValidationError 
