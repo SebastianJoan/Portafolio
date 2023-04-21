@@ -16,32 +16,42 @@ import figma from '../../../public/icons/techs/figma.svg'
 
 import Footer from '@/components/Footer/Footer'
 import Link from 'next/link'
+import Head from 'next/head'
 
 export default function AboutMe() {
 
     return (
         <>
-            <Appbar/>
-            <div className='bg-gray-800 w-full md:h-[477px] h-screen flex justify-center items-center justify-items-center'>
-                <div className='flex flex-col mx-auto md:flex-row justify-center gap-5 items-center justify-items-center'>
-                    <Image
-                        src={avatar}
-                        alt="Profile Image"
-                        width={512}
-                        height={512}
-                        className='object-cover md:w-[120px] md:h-[120p] w-full rounded-full'
-                    />
-                    <div className='flex flex-col justify-center items-center justify-items-center px-4 gap-3'>
-                        <Link href="/docs/CVINGLES.pdf" target='blanck' download='CVINGLES.pdf' className='w-auto h-auto px-4 py-2 bg-[#ffffff] hover:text-white hover:bg-black text-black rounded-md'>
-                            Descargar CV Ingles
-                        </Link>   
-                        <Link href="/docs/CVSPAIN.pdf" target='blanck' download='CVSPAIN.pdf' className='w-auto h-auto px-4 py-2 bg-[#ffffff] hover:text-white hover:bg-black text-black rounded-md'>
-                            Descargar CV Español
-                        </Link>    
+            <main>
+                <Head>
+                        <link rel="shortcut icon" href="../imgs/avatar.jpg" />
+                        <title> Joan Sebastian Giraldo Morales  </title>
+                        <meta name="description" content="
+                            I'm a Systems engineer, Full Stack Web Developer from Colombia. I am currently working as a freelancer in different projects, both for myself and for some clients."
+                        />
+                    </Head>
+                <Appbar/>
+                <div className='bg-gray-800 w-full md:h-[477px] h-screen flex justify-center items-center justify-items-center'>
+                    <div className='flex flex-col mx-auto md:flex-row justify-center gap-5 items-center justify-items-center'>
+                        <Image
+                            src={avatar}
+                            alt="Profile Image"
+                            width={512}
+                            height={512}
+                            className='object-cover md:w-[120px] md:h-[120p] w-full rounded-full'
+                        />
+                        <div className='flex flex-col justify-center items-center justify-items-center px-4 gap-3'>
+                            <Link href="/docs/CVINGLES.pdf" target='blanck' download='CVINGLES.pdf' className='w-auto h-auto px-4 py-2 bg-[#ffffff] hover:text-white hover:bg-black text-black rounded-md'>
+                                Descargar CV Ingles
+                            </Link>   
+                            <Link href="/docs/CVSPAIN.pdf" target='blanck' download='CVSPAIN.pdf' className='w-auto h-auto px-4 py-2 bg-[#ffffff] hover:text-white hover:bg-black text-black rounded-md'>
+                                Descargar CV Español
+                            </Link>    
+                        </div>
                     </div>
                 </div>
-            </div>
-            <Footer/>
+                <Footer/>
+            </main>
         </>
     )
 }

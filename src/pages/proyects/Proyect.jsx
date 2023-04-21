@@ -18,135 +18,109 @@ import tailwindcss from '../../../public/icons/techs/tailwind.svg'
 import Footer from '@/components/Footer/Footer'
 import Link from 'next/link'
 import ProyectItem from '../../components/ProyectItem'
+import Head from 'next/head'
 
 export default function Proyect() {
     
+    const proyectos = [
+        {
+            "tittle"       : "CEAS",
+            "proyect_icon" : ceas_icon,
+            "url"          : "https://ceas.vercel.app",
+            "LinkTech_01"  : "https://es.reactjs.org",
+            "LinkTech_02"  : "https://tailwindcss.com",
+            "ImageTech_01" : react,
+            "altTech_01"   : "react",
+            "ImageTech_02" : tailwindcss,
+            "altTech_02"   : "tailwind",
+        },
+        {
+            "tittle"       : "Ecoparque Diamante",
+            "proyect_icon" : diamante,
+            "url"          : "https://www.ecoparquediamante.com",
+            "LinkTech_01"  : "https://es.reactjs.org",
+            "LinkTech_02"  : "https://tailwindcss.com",
+            "ImageTech_01" : react,
+            "altTech_01"   : "react",
+            "ImageTech_02" : tailwindcss,
+            "altTech_02"   : "tailwind",
+        },
+        {
+            "tittle"       : "Testik services sas",
+            "proyect_icon" : TestikLogo,
+            "url"          : "http://testik.com.co",
+            "LinkTech_01"  : "https://laravel.com",
+            "LinkTech_02"  : "https://www.mysql.com",
+            "ImageTech_01" : laravel,
+            "altTech_01"   : "laravel",
+            "ImageTech_02" : mysql,
+            "altTech_02"   : "mysql",
+        },        
+        {
+            "tittle"       : "Gworks services sas",
+            "proyect_icon" : gworks,
+            "url"          : "https://www.gworks.com.co",
+            "LinkTech_01"  : "https://laravel.com",
+            "LinkTech_02"  : "https://www.mysql.com",
+            "ImageTech_01" : laravel,
+            "altTech_01"   : "laravel",
+            "ImageTech_02" : mysql,
+            "altTech_02"   : "mysql",
+        },
+        {
+            "tittle"       : " GSI GROUP SAS",
+            "proyect_icon" : gsi_logo,
+            "url"          : "https://groupgsi.com",
+            "LinkTech_01"  : "https://laravel.com",
+            "LinkTech_02"  : "https://www.mysql.com",
+            "ImageTech_01" : laravel,
+            "altTech_01"   : "laravel",
+            "ImageTech_02" : mysql,
+            "altTech_01"   : "mysql",
+        },
+    ]
+
     return (
-        <>
-            <Appbar/>
-            <div className="w-full h-auto bg-gray-800 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-4 gap-4">
-                 <ProyectItem tittle = 'CEAS' proyect_icon = {ceas_icon} url="https://ceas.vercel.app" >
-                    <Link target='blanck' href='https://es.reactjs.org' className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={react}
-                            alt="react"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>  
-                    <Link target='blanck' href="https://tailwindcss.com" className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={tailwindcss}
-                            alt="tailwindcss"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>
-                </ProyectItem>{/*
-                <ProyectItem tittle = ' WhatsApp Clone (Frontend) ' proyect_icon = {whatsapp_icon} url="https://portafolio-web-01-rdrx36yhh-birdstudio.vercel.app" >
-                    <Link target='blanck' href='https://es.reactjs.org' className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={react}
-                            alt="react"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>  
-                    <Link target='blanck' href="https://tailwindcss.com" className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={tailwindcss}
-                            alt="tailwindcss"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>
-                </ProyectItem> */}
-                <ProyectItem tittle = ' Ecoparque Diamante ' proyect_icon = {diamante} url="https://www.ecoparquediamante.com" >
-                    <Link target='blanck' href='https://es.reactjs.org' className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={react}
-                            alt="react"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>  
-                    <Link target='blanck' href="https://tailwindcss.com" className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={tailwindcss}
-                            alt="tailwindcss"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>
-                </ProyectItem>
-                <ProyectItem tittle = ' Testik services sas ' proyect_icon = {TestikLogo} url="http://testik.com.co" >
-                    <Link target='blanck' href='https://laravel.com' className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={laravel}
-                            alt="laravel"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>  
-                    <Link target='blanck' href="https://www.mysql.com" className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={mysql}
-                            alt="mysql"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>
-                </ProyectItem>
-                <ProyectItem tittle = ' Gworks services sas ' proyect_icon = {gworks} url="https://www.gworks.com.co" >
-                    <Link target='blanck' href='https://laravel.com' className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={laravel}
-                            alt="laravel"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>  
-                    <Link target='blanck' href="https://www.mysql.com" className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={mysql}
-                            alt="mysql"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>
-                </ProyectItem>
-                <ProyectItem tittle = ' GSI GROUP SAS ' proyect_icon = {gsi_logo} url="https://groupgsi.com" >
-                    <Link target='blanck' href='https://laravel.com' className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={laravel}
-                            alt="laravel"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>
-                    <Link target='blanck' href="https://www.mysql.com" className='w-1/2 flex justify-center items-center justify-items-center'>
-                        <Image
-                            src={mysql}
-                            alt="mysql"
-                            width={60}
-                            height={60}
-                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
-                        />
-                    </Link>
-                </ProyectItem>
-            </div>
-            <Footer/>
+        <>  
+            <main>
+                <Head>
+                    <link rel="shortcut icon" href="../imgs/avatar.jpg" />
+                    <title> Joan Sebastian Giraldo Morales  </title>
+                    <meta name="description" content="
+                        I'm a Systems engineer, Full Stack Web Developer from Colombia. I am currently working as a freelancer in different projects, both for myself and for some clients."
+                    />
+                </Head>
+                <Appbar/>
+                <div className="w-full h-auto bg-gray-800 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 px-4 gap-4">
+                    {   
+                        proyectos ? (
+                            proyectos.map((data) => (
+                                <ProyectItem tittle = { data.tittle } proyect_icon = { data.proyect_icon } url={data.url} >
+                                    <Link target='blanck' href={data.LinkTech_01} className='w-1/2 flex justify-center items-center justify-items-center'>
+                                        <Image
+                                            src={data.ImageTech_01}
+                                            alt={data.altTech_01}
+                                            width={60}
+                                            height={60}
+                                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
+                                        />
+                                    </Link>  
+                                    <Link target='blanck' href={data.LinkTech_01} className='w-1/2 flex justify-center items-center justify-items-center'>
+                                        <Image
+                                            src={data.ImageTech_02}
+                                            alt={data.altTech_02}
+                                            width={60}
+                                            height={60}
+                                            className='object-cover md:w-[60px] md:h-[120p] w-[50%]'
+                                        />
+                                    </Link>
+                                </ProyectItem>
+                            ))
+                        ) : null 
+                    }
+                </div>
+                <Footer/>
+            </main>
         </>
     )
 }
