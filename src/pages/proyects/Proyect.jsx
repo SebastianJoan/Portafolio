@@ -12,6 +12,7 @@ import laravel from '../../../public/icons/techs/laravel.svg'
 
 import whatsapp_icon from '../../../public/icons/proyects/whatsapp.svg'
 import ceas_icon from '../../../public/icons/proyects/LogoCeas.png'
+import LogoEBC from '../../../public/icons/proyects/EBConstrucciones.png'
 import react from '../../../public/icons/techs/react.svg'
 import tailwindcss from '../../../public/icons/techs/tailwind.svg'
 
@@ -23,6 +24,17 @@ import Head from 'next/head'
 export default function Proyect() {
     
     const proyectos = [
+        {
+            "tittle"       : "EB Construcciones S.A.S",
+            "proyect_icon" : LogoEBC,
+            "url"          : "https://ebconstrucciones.vercel.app",
+            "LinkTech_01"  : "https://es.reactjs.org",
+            "LinkTech_02"  : "https://tailwindcss.com",
+            "ImageTech_01" : react,
+            "altTech_01"   : "react",
+            "ImageTech_02" : tailwindcss,
+            "altTech_02"   : "tailwind",
+        },
         {
             "tittle"       : "CEAS",
             "proyect_icon" : ceas_icon,
