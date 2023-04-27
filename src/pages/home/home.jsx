@@ -106,11 +106,11 @@ export default function Home() {
                         />
                     </div>
                     <div className='md:w-[85%] w-full'>
-                        <div className='w-full h-auto bg-black text-center rounded-t-lg px-4 py-1'>
+                        <div className='w-full h-auto bg-black text-center rounded-t-lg px-4 py-1 text-white'>
                             C/Windows/System32/cmd.exe
                         </div>
                         <div className='bg-black p-4 rounded-b-lg'>
-                            <p className='animate-typing animate-duration-500'>
+                            <p className='animate-typing animate-duration-500 text-white'>
                                 C:\Users\visit: {text}
                             </p>
                         </div>
@@ -118,11 +118,11 @@ export default function Home() {
                 </div>
                 <div className='w-full h-auto bg-gray-800 px-4 py-2'>
                     <div className='w-[100%]'>
-                        <div className='w-full h-auto bg-black text-center rounded-t-lg px-4 py-1'>
+                        <div className='w-full h-auto bg-black text-center rounded-t-lg px-4 py-1 text-white'>
                             C/Windows/System32/Studies.exe
                         </div>
                         <div className='bg-black p-4 rounded-b-lg'>
-                            <p className='animate-typing animate-duration-500'>
+                            <p className='animate-typing animate-duration-500 text-white' >
                                 C:\Users\visit: {Cursos}
                             </p>
                         </div>
@@ -130,7 +130,7 @@ export default function Home() {
                 </div>
                 <div className='w-full h-auto bg-gray-800 px-4 py-2'>
                     <div className='md:w-[100%] w-full'>
-                        <div className='w-full h-auto bg-black text-center rounded-t-lg md:px-4 py-1'>
+                        <div className='w-full h-auto bg-black text-center rounded-t-lg md:px-4 py-1 text-white'>
                             C/Windows/System32/technologies.exe
                         </div>
                         <div className='bg-black p-4 rounded-b-lg animate-typing flex md:flex-row flex-col animate-duration-500 justify-between items-center justify-items-center gap-5 overflow-hidden w-auto h-auto px-4 py-2'>
