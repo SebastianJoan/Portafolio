@@ -39,7 +39,7 @@ export default function Proyect() {
         {
             "tittle"       : "EB Construcciones S.A.S",
             "proyect_icon" : LogoEBC,
-            "url"          : "https://ebconstrucciones.vercel.app",
+            "url"          : "https://www.ebconstrucciones.com.co",
             "LinkTech_01"  : "https://es.reactjs.org",
             "LinkTech_02"  : "https://tailwindcss.com",
             "ImageTech_01" : react,
