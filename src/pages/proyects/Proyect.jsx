@@ -14,6 +14,7 @@ import whatsapp_icon from '../../../public/icons/proyects/whatsapp.svg'
 import ceas_icon from '../../../public/icons/proyects/LogoCeas.png'
 import LogoEBC from '../../../public/icons/proyects/EBConstrucciones.png'
 import LogoSeg from '../../../public/icons/proyects/health.svg'
+import LogoPoke from '../../../public/icons/proyects/pokeball.svg'
 import react from '../../../public/icons/techs/react.svg'
 import tailwindcss from '../../../public/icons/techs/tailwind.svg'
 
@@ -26,6 +27,19 @@ export default function Proyect() {
     
     const proyectos = [
         {
+            "id" :1,
+            "tittle"       : "PokeDex",
+            "proyect_icon" : LogoPoke,
+            "url"          : "https://poke-dex-next-demo-vt857l4vu-birdstudio.vercel.app",
+            "LinkTech_01"  : "https://es.reactjs.org",
+            "LinkTech_02"  : "https://tailwindcss.com",
+            "ImageTech_01" : react,
+            "altTech_01"   : "react",
+            "ImageTech_02" : tailwindcss,
+            "altTech_02"   : "tailwind",
+        },
+        {
+            "id" :2,
             "tittle"       : "Bateria",
             "proyect_icon" : LogoSeg,
             "url"          : "https://seguridad-two.vercel.app",
@@ -37,6 +51,7 @@ export default function Proyect() {
             "altTech_02"   : "tailwind",
         },
         {
+            "id" :3,
             "tittle"       : "EB Construcciones S.A.S",
             "proyect_icon" : LogoEBC,
             "url"          : "https://www.ebconstrucciones.com.co",
@@ -48,6 +63,7 @@ export default function Proyect() {
             "altTech_02"   : "tailwind",
         },
         {
+            "id" :4,
             "tittle"       : "CEAS",
             "proyect_icon" : ceas_icon,
             "url"          : "https://ceas.vercel.app",
@@ -59,6 +75,7 @@ export default function Proyect() {
             "altTech_02"   : "tailwind",
         },
         {
+            "id" :5,
             "tittle"       : "Ecoparque Diamante",
             "proyect_icon" : diamante,
             "url"          : "https://www.ecoparquediamante.com",
@@ -70,6 +87,7 @@ export default function Proyect() {
             "altTech_02"   : "tailwind",
         },
         {
+            "id" :6,
             "tittle"       : "Testik services sas",
             "proyect_icon" : TestikLogo,
             "url"          : "http://testik.com.co",
@@ -81,6 +99,7 @@ export default function Proyect() {
             "altTech_02"   : "mysql",
         },        
         {
+            "id" :7,
             "tittle"       : "Gworks services sas",
             "proyect_icon" : gworks,
             "url"          : "https://www.gworks.com.co",
@@ -92,6 +111,7 @@ export default function Proyect() {
             "altTech_02"   : "mysql",
         },
         {
+            "id" :8,
             "tittle"       : " GSI GROUP SAS",
             "proyect_icon" : gsi_logo,
             "url"          : "https://groupgsi.com",
@@ -119,7 +139,7 @@ export default function Proyect() {
                     {   
                         proyectos ? (
                             proyectos.map((data) => (
-                                <ProyectItem tittle = { data.tittle } proyect_icon = { data.proyect_icon } url={data.url} >
+                                <ProyectItem key = { data.id } tittle = { data.tittle } proyect_icon = { data.proyect_icon } url={data.url} >
                                     <Link target='blanck' href={data.LinkTech_01} className='w-1/2 flex justify-center items-center justify-items-center'>
                                         <Image
                                             src={data.ImageTech_01}
