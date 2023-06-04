@@ -43,7 +43,7 @@ export default function Proyect() {
             "id" :2,
             "tittle"       : "PokeDex",
             "proyect_icon" : LogoPoke,
-            "url"          : "https://poke-dex-next-demo-vt857l4vu-birdstudio.vercel.app",
+            "url"          : "https://poke-dex-next-demo.vercel.app/",
             "LinkTech_01"  : "https://es.reactjs.org",
             "LinkTech_02"  : "https://tailwindcss.com",
             "ImageTech_01" : react,
