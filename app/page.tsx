@@ -255,6 +255,13 @@ export default function Home() {
       "Framework" : Astro, 
       "CSS"       : TailwindCSS, 
     },{ 
+      "Key"       : "743bd441230e79",
+      "Tittle"    : "Vecto",
+      "Icon"      : EcoparqueDiamante,
+      "Link"      : "https://vecto-web-one.vercel.app", 
+      "Framework" : React, 
+      "CSS"       : TailwindCSS, 
+    },{ 
       "Key"       : "743bd440e79",
       "Tittle"    : "Ecoparque Diamante",
       "Icon"      : EcoparqueDiamante,
