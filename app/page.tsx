@@ -33,6 +33,7 @@ import gsigroup from '../public/gsigroup.webp';
 import gworks from '../public/gworks.webp';
 import overwatch from '../public/Overwatch.webp';
 import ebconstrucciones from '../public/ebconstrucciones.webp';
+import vecto from '../public/vectoLogo.png';
 
 //tecnologias
 import Astro from '../public/astro.svg';
@@ -257,7 +258,7 @@ export default function Home() {
     },{ 
       "Key"       : "743bd441230e79",
       "Tittle"    : "Vecto",
-      "Icon"      : EcoparqueDiamante,
+      "Icon"      : vecto,
       "Link"      : "https://vecto-web-one.vercel.app", 
       "Framework" : React, 
       "CSS"       : TailwindCSS, 
