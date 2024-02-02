@@ -337,7 +337,8 @@
         "Elige tu propia aventura",
         "En desarrollo"
       ],
-      "url": "https://overwatch.com.co"
+      "url": "https://overwatch.com.co",
+      "github":""
     },
     {
       "name": "event +",
@@ -347,7 +348,8 @@
         "NextJS",
         "JavaScript & TypeScript"
       ],
-      "url": "https://eventplus.com.co"
+      "url": "https://eventplus.com.co",
+      "github":""
     },
     {
       "name": "Vecto",
@@ -356,14 +358,16 @@
       "highlights": [
         "Sistema de Gestion de Activos ( Vehiculos ) "
       ],
-      "url": "https://vecto.com.co"
+      "url": "https://vecto.com.co",
+      "github":""
     },
     {
       "name": "Enigmatic 3D",
       "isActive": true,
       "description": "Empresa de desarrollo de videojuegos, desarrollos 3D, Modelado y audiovisuales",
       "highlights": [],
-      "url": "https://enigmatic3d.com"
+      "url": "https://enigmatic3d.com",
+      "github":""
     } 
   ]
 }
