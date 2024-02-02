@@ -1,0 +1,369 @@
+{
+  "basics": {
+    "name": "Joan Sebastian Giraldo Morales",
+    "label": "FullStack Developer",
+    "image": "/me.webp",
+    "email": "sebastiangiraldo3@sgiraldomor.com",
+    "phone": "+57 31630031891",
+    "url": "https://sgiraldomor.com",
+    "summary": "5 años de experiencia como Desarrollador Web. Actualmente soy Creador de diversos proyectos web. Vivo en Bucaramanga, Colombia. He trabajado en los ultimos años como desarrollador de software para diversas empresas del sector oil & gas.",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Bucaramanga",
+      "countryCode": "ES",
+      "region": "Colombia"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "sgiraldomor",
+        "url": "https://linkedin.com/in/sgiraldomor"
+      },
+      {
+        "network": "X",
+        "username": "sgiraldomor",
+        "url": "https://x.com/sgiraldomor"
+      },
+      {
+        "network": "GitHub",
+        "username": "SebastianJoan",
+        "url": "https://github.com/SebastianJoan"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Ecoparque Diamante S.A.S",
+      "position": "Junior FullStack Developer",
+      "url": "https://www.ecoparquediamante.com",
+      "startDate": "2023-01-08",
+      "endDate": "2023-01-18",
+      "summary": "Desarrollo de Landing Page",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Manjar",
+      "position": "Junior FullStack Developer",
+      "url": "https://www.manjarcakeshop.com",
+      "startDate": "2024-02-02",
+      "endDate": "2024-02-15",
+      "summary": "Desarrollo Tienda virtual",
+      "highlights": [
+        ""
+      ]
+    },    
+    {
+      "name": "Emora Medellin",
+      "position": "Junior FullStack Developer",
+      "url": "https://www.emoramedellin.com",
+      "startDate": "2024-02-02",
+      "endDate": "2024-02-18",
+      "summary": "Desarrollo de Landing Page",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Postres Kevana",
+      "position": "Junior FullStack Developer",
+      "url": "https://www.postreskevana.com",
+      "startDate": "2024-02-02",
+      "endDate": "2024-02-18",
+      "summary": "Desarrollo Tienda virtual",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Testik Services",
+      "position": "Junior FullStack Developer",
+      "url": "https://testik.com.co/inicio",
+      "startDate": "2022-06-01",
+      "endDate": "2022-12-30",
+      "summary": "Desarrollo de Landing Page",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Gworks Services",
+      "position": "FullStack Developer",
+      "startDate": "2022-06-01",
+      "endDate": "2023-02-02",
+      "summary": "Desarrollo de Landing Page y sistema de informacion para la gestion de mantenimientos de los diferentes activos de la empresa",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "GSI GROUP S.A.S",
+      "position": "FullStack Developer",
+      "startDate": "2021-12-01",
+      "endDate": "2023-02-02",
+      "summary": "Desarrollo de Landing Page y sistema de informacion para la gestion de mantenimientos de los diferentes activos de la empresa",
+      "highlights": [
+        ""
+      ]
+    }
+  ],
+  "volunteer": [{
+    "organization": "Pioneras Dev",
+    "position": "Volunteer",
+    "url": "https://pioneras.dev.com/",
+    "startDate": "2024-01-28",
+    "endDate": "2013-01-01",
+    "summary": "Description…",
+    "highlights": [
+      "Awarded 'Volunteer of the Month'"
+    ]
+  }],
+  "education": [{
+    "institution": "Universidad de Investigacion y desarrollo - UDI ",
+    "url": "https://web.udi.edu.co",
+    "area": "Ingeniero de Software",
+    "studyType": "Bachelor",
+    "startDate": "2016-01-01",
+    "endDate": "2021-08-17",
+    "score": "4.0",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  },{
+    "institution": "Platzi",
+    "url": "https://platzi.com",
+    "area": "Desarrollo Web",
+    "studyType": "Bachelor",
+    "startDate": "2016-01-01",
+    "endDate": "2016-01-01",
+    "score": "",
+    "courses": [
+      "Curso Básico de Computadores e Informática",
+      "Curso Básico de Programación",
+      "Curso de Figma",
+      "Curso de Figma Avanzado",
+      "Curso Básico de JavaScript",
+      "Curso de Computación Básica",
+      "Curso de Frontend Developer",
+      "Curso de Flutter",
+      "Curso de Fundamentos de Node.js",
+      "Curso de Introducción a la Terminal y Línea de Comandos",
+      "Curso de Introducción al Despliegue de Aplicaciones",
+      "Curso de Introducción al Desarrollo Backend",
+      "Curso de JavaScript Engine (V8) y el Navegador",
+      "Curso de Redes Informáticas de Internet",
+      "Curso Básico de Algoritmos y Pensamiento Lógico",
+      "Curso de Responsive Design: Maquetación Mobile First",
+      "Curso Básico de Seguridad Informática para Empresas",
+      "Curso de Gestión de Dependencias y Paquetes con NPM",
+      "Curso de Prework: Configuración de Entorno de Desarrollo en Windows",
+      "Curso de Inglés Básico A1: Conversaciones Cortas y Habituales (2020)"
+    ]
+  },{
+    "institution": "Udemy",
+    "url": "https://www.udemy.com",
+    "area": "Desarrollo Web",
+    "studyType": "Bachelor",
+    "startDate": "2016-01-01",
+    "endDate": "2016-01-01",
+    "score": "",
+    "courses": [
+      "TypeScript: Tu completa guía y manual de mano",
+      "Legacy - Node: De cero a experto",
+      "React PRO: Lleva tus bases al siguiente nivel",
+      "Flutter - Móvil: De cero a experto - Edición 2023",
+      "Flutter Web: Aplicaciones y páginas web profesionales",
+      "NodeJS: De cero a experto",
+      "React: De cero a experto ( Hooks y MERN )",
+      "Next.js: El framework de React para producción",
+      "Legacy - Flutter: Tu guía completa para IOS y Android"
+    ]
+  }],
+  "awards": [{
+    "title": "Award",
+    "date": "2014-11-01",
+    "awarder": "Company",
+    "summary": "There is no spoon."
+  }],
+  "certificates": [{
+    "name": "Certificate",
+    "date": "2021-11-07",
+    "issuer": "Company",
+    "url": "https://certificate.com"
+  }],
+  "publications": [{
+    "name": "Publication",
+    "publisher": "Company",
+    "releaseDate": "2014-10-01",
+    "url": "https://publication.com",
+    "summary": "Description…"
+  }],
+  "skills": [
+    {
+      "name": "HTML",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Master",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Middle",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Middle",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Middle",
+      "keywords": [
+        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Avanzado",
+      "keywords": [
+        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Middle",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Middle",
+      "keywords": [
+        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+      ]
+    },
+    {
+      "name": "Next.js",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+      ]
+    },
+    {
+      "name": "PHP",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Backend", "PHP Library", "UI"
+      ]
+    },
+    {
+      "name": "Laravel",
+      "level": "Avanzado",
+      "keywords": [
+        "Desarrollo Web", "Fullstack", "PHP framework", "UI/UX"
+      ]
+    },
+    {
+      "name": "Unreal",
+      "level": "Junior",
+      "keywords": [
+        "Desarrollo VideoJuegos", "Programador", "C++", "Blueprints"
+      ]
+    },
+    {
+      "name": "Blender",
+      "level": "Junior",
+      "keywords": [
+        "Desarrollo VideoJuegos", "Modelado 3D", "Diseño de niveles", "Game Desing"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Middle"
+    }
+  ],
+  "interests": [{
+    "name": "Wildlife",
+    "keywords": [
+      "Ferrets",
+      "Unicorns"
+    ]
+  }],
+  "references": [{
+    "name": "Jane Doe",
+    "reference": "Reference…"
+  }],
+  "projects": [
+    {
+      "name": "overwatch",
+      "isActive": true,
+      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "highlights": [
+        "Elige tu propia aventura",
+        "En desarrollo"
+      ],
+      "url": "https://overwatch.com.co"
+    },
+    {
+      "name": "event +",
+      "isActive": true,
+      "description": "Sistema para la gestion de eventos, seguimiento de reuniones, evidencias y generacion de actas.",
+      "highlights": [
+        "NextJS",
+        "JavaScript & TypeScript"
+      ],
+      "url": "https://eventplus.com.co"
+    },
+    {
+      "name": "Vecto",
+      "isActive": true,
+      "description": "",
+      "highlights": [
+        "Sistema de Gestion de Activos ( Vehiculos ) "
+      ],
+      "url": "https://vecto.com.co"
+    },
+    {
+      "name": "Enigmatic 3D",
+      "isActive": true,
+      "description": "Empresa de desarrollo de videojuegos, desarrollos 3D, Modelado y audiovisuales",
+      "highlights": [],
+      "url": "https://enigmatic3d.com"
+    } 
+  ]
+}
