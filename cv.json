@@ -6,7 +6,7 @@
     "email": "sebastiangiraldo3@sgiraldomor.com",
     "phone": "+57 31630031891",
     "url": "https://sgiraldomor.com",
-    "summary": "5 años de experiencia como Desarrollador Web. Actualmente soy Creador de diversos proyectos web. Vivo en Bucaramanga, Colombia. He trabajado en los ultimos años como desarrollador de software para diversas empresas del sector oil & gas.",
+    "summary": "5 años de experiencia como Ingeniero de sistemas enfocado al sector oil & gas, Creador de diversas Landing pages y Tiendas virtuales para diversos negocios, Emprendedor co-founder de overwatch.com.co, Desarrollador web con conocimientos en; html, js, css, php, laravel, tailwindcss, NextJs, Astro, Mysql, Figma, Blender, Unreal, git, AWS, Flutter y proximamente desarrollador Swift",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,19 +34,8 @@
   },
   "work": [
     {
-      "name": "Ecoparque Diamante S.A.S",
-      "position": "Junior FullStack Developer",
-      "url": "https://www.ecoparquediamante.com",
-      "startDate": "2023-01-08",
-      "endDate": "2023-01-18",
-      "summary": "Desarrollo de Landing Page",
-      "highlights": [
-        ""
-      ]
-    },
-    {
       "name": "Manjar",
-      "position": "Junior FullStack Developer",
+      "position": "Desarrollador web",
       "url": "https://www.manjarcakeshop.com",
       "startDate": "2024-02-02",
       "endDate": "2024-02-15",
@@ -57,7 +46,7 @@
     },    
     {
       "name": "Emora Medellin",
-      "position": "Junior FullStack Developer",
+      "position": "Desarrollador web",
       "url": "https://www.emoramedellin.com",
       "startDate": "2024-02-02",
       "endDate": "2024-02-18",
@@ -68,7 +57,7 @@
     },
     {
       "name": "Postres Kevana",
-      "position": "Junior FullStack Developer",
+      "position": "Desarrollador web",
       "url": "https://www.postreskevana.com",
       "startDate": "2024-02-02",
       "endDate": "2024-02-18",
@@ -78,32 +67,22 @@
       ]
     },
     {
-      "name": "Testik Services",
-      "position": "Junior FullStack Developer",
-      "url": "https://testik.com.co/inicio",
-      "startDate": "2022-06-01",
-      "endDate": "2022-12-30",
-      "summary": "Desarrollo de Landing Page",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "name": "Gworks Services",
-      "position": "FullStack Developer",
-      "startDate": "2022-06-01",
-      "endDate": "2023-02-02",
-      "summary": "Desarrollo de Landing Page y sistema de informacion para la gestion de mantenimientos de los diferentes activos de la empresa",
-      "highlights": [
-        ""
-      ]
-    },
-    {
       "name": "GSI GROUP S.A.S",
-      "position": "FullStack Developer",
+      "position": "Ingeniero de sistemas",
       "startDate": "2021-12-01",
-      "endDate": "2023-02-02",
+      "endDate": "2024-02-02",
       "summary": "Desarrollo de Landing Page y sistema de informacion para la gestion de mantenimientos de los diferentes activos de la empresa",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Ecoparque Diamante S.A.S",
+      "position": "Desarrollador web",
+      "url": "https://www.ecoparquediamante.com",
+      "startDate": "2023-01-08",
+      "endDate": "2023-01-18",
+      "summary": "Desarrollo de Landing Page",
       "highlights": [
         ""
       ]
@@ -134,10 +113,10 @@
   },{
     "institution": "Platzi",
     "url": "https://platzi.com",
-    "area": "Desarrollo Web",
+    "area": "Desarrollo Software",
     "studyType": "Bachelor",
-    "startDate": "2016-01-01",
-    "endDate": "2016-01-01",
+    "startDate": "2016-01-02",
+    "endDate": "2024-01-02",
     "score": "",
     "courses": [
       "Curso Básico de Computadores e Informática",
@@ -166,8 +145,8 @@
     "url": "https://www.udemy.com",
     "area": "Desarrollo Web",
     "studyType": "Bachelor",
-    "startDate": "2016-01-01",
-    "endDate": "2016-01-01",
+    "startDate": "2016-01-02",
+    "endDate": "2024-01-02",
     "score": "",
     "courses": [
       "TypeScript: Tu completa guía y manual de mano",
@@ -332,10 +311,11 @@
     {
       "name": "overwatch",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Empresa de desarrollo tecnologico enfocada en tecnologia y optimizacion usando nuevas tecnologias",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "NextJS",
+        "Tailwind Css",
+        "AWS"
       ],
       "url": "https://overwatch.com.co",
       "github":""
@@ -354,9 +334,11 @@
     {
       "name": "Vecto",
       "isActive": true,
-      "description": "",
+      "description": "Sistema de Gestion de Activos ( Vehiculos )",
       "highlights": [
-        "Sistema de Gestion de Activos ( Vehiculos ) "
+        "NextJs",
+        "JavaScript & TypeScript",
+        "Tailwind Css"
       ],
       "url": "https://vecto.com.co",
       "github":""
