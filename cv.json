@@ -2,15 +2,15 @@
   "basics": {
     "name": "Joan Sebastian Giraldo Morales",
     "label": "FullStack Developer",
-    "image": "/me.webp",
+    "image": "/me.jpeg",
     "email": "sebastiangiraldo3@gmail.com",
     "phone": "+57 3028319211",
     "url": "https://sgiraldomor.com",
-    "summary": "5 años de experiencia como Ingeniero de sistemas enfocado al sector oil & gas, Creador de diversas Landing pages y Tiendas virtuales para diversos negocios, Emprendedor co-founder de overwatch.com.co, Desarrollador web con conocimientos en; html, js, css, php, laravel, tailwindcss, NextJs, Astro, Mysql, Figma, Blender, Unreal, git, AWS, Flutter y proximamente desarrollador Swift",
+    "summary": "3 años de experiencia como Ingeniero de sistemas enfocado al sector oil & gas, Creador de diversas Landing pages y sistemas de informacion para diversos negocios, Emprendedor y co-founder de overwatch.com.co, Desarrollador web con conocimientos en; html, js, css, php, laravel, wordpress, tailwindcss, NextJs, Astro, Mysql, Figma, git, Flutter y proximamente Swift",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Bucaramanga",
+      "city": "Barrancabermeja",
       "countryCode": "ES",
       "region": "Colombia"
     },
@@ -34,81 +34,71 @@
   },
   "work": [
     {
-      "name": "Manjar",
-      "position": "Desarrollador web",
-      "url": "https://www.manjarcakeshop.com",
-      "startDate": "2024-02-02",
-      "endDate": "2024-02-15",
-      "summary": "Desarrollo Tienda virtual",
-      "highlights": [
-        ""
-      ]
-    },    
-    {
-      "name": "Emora Medellin",
-      "position": "Desarrollador web",
-      "url": "https://www.emoramedellin.com",
-      "startDate": "2024-02-02",
-      "endDate": "2024-02-18",
-      "summary": "Desarrollo de Landing Page",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "name": "Postres Kevana",
-      "position": "Desarrollador web",
-      "url": "https://www.postreskevana.com",
-      "startDate": "2024-02-02",
-      "endDate": "2024-02-18",
-      "summary": "Desarrollo Tienda virtual",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "name": "GSI GROUP S.A.S",
+      "name": "Gsi group",
       "position": "Ingeniero de sistemas",
+      "url": "https://www.groupgsi.com",
       "startDate": "2021-12-01",
-      "endDate": "2024-02-02",
-      "summary": "Desarrollo de Landing Page y sistema de informacion para la gestion de mantenimientos de los diferentes activos de la empresa",
+      "endDate": "2024-06-01",
+      "summary": "Ingeniero de sistemas, lider del area de sistemas, con experiencia en analisis, diseño y desarrollo de soluciones innovadoras que sacien las necesidades de la empresa",
       "highlights": [
         ""
       ]
     },
     {
-      "name": "Ecoparque Diamante S.A.S",
-      "position": "Desarrollador web",
-      "url": "https://www.ecoparquediamante.com",
-      "startDate": "2023-01-08",
-      "endDate": "2023-01-18",
-      "summary": "Desarrollo de Landing Page",
+      "name": "Cafaba",
+      "position": "Practicante de sistemas",
+      "url": "https://www.cafaba.com.co",
+      "startDate": "2021-03-01",
+      "endDate": "2021-04-30",
+      "summary": "Apoyo en el rediseño y desarrollo de la aplicación web TUCAFI para trabajadores y empresas. Diagnóstico, mantenimiento y reparación de equipos de cómputo en las diferentes oficinas de la empresa.",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Alcaldía Distrital de Barrancabermeja",
+      "position": "Tecnologo de sistemas",
+      "url": "",
+      "startDate": "2020-08-01",
+      "endDate": "2020-11-30",
+      "summary": "Apoyó en el diseño y desarrolló de la pagina web del Forcap. Asesoramiento en el manejo de plataformas digitales para el programa de experiencia cero del distrito de Barrancabermeja.",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Alcaldía Distrital de Barrancabermeja",
+      "position": "Tecnico de sistemas",
+      "url": "",
+      "startDate": "2019-12-01",
+      "endDate": "2019-12-30",
+      "summary": "Apoyó en la supervisión de contratos realizados para el apoyo de las comunidades vulnerables del distrito de Barrancabermeja",
+      "highlights": [
+        ""
+      ]
+    },
+    {
+      "name": "Alcaldía Distrital de Barrancabermeja",
+      "position": "Tecnico de sistemas",
+      "url": "",
+      "startDate": "2019-06-14",
+      "endDate": "2019-11-30",
+      "summary": "Apoyó en la realización de los diferentes eventos de la oficina del FORCAP en cuanto a logística y desempeño, tales como; capacitaciones y ofertas institucionales realizadas en el distrito de Barrancabermeja",
       "highlights": [
         ""
       ]
     }
   ],
-  "volunteer": [{
-    "organization": "Pioneras Dev",
-    "position": "Volunteer",
-    "url": "https://pioneras.dev.com/",
-    "startDate": "2024-01-28",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
   "education": [{
-    "institution": "Universidad de Investigacion y desarrollo - UDI ",
+    "institution": "Universidad de investigacion y desarrollo - UDI",
     "url": "https://web.udi.edu.co",
-    "area": "Ingeniero de Software",
+    "area": "Ingeniero de Sistemas",
     "studyType": "Bachelor",
     "startDate": "2016-01-01",
     "endDate": "2021-08-17",
     "score": "4.0",
     "courses": [
-      "DB1101 - Basic SQL"
+      ""
     ]
   },{
     "institution": "Platzi",
@@ -157,7 +147,8 @@
       "NodeJS: De cero a experto",
       "React: De cero a experto ( Hooks y MERN )",
       "Next.js: El framework de React para producción",
-      "Legacy - Flutter: Tu guía completa para IOS y Android"
+      "Legacy - Flutter: Tu guía completa para IOS y Android",
+      "Desarrollo de Tiendas Virtuales con WordPress y WooCommerce"
     ]
   }],
   "awards": [{
@@ -270,20 +261,6 @@
       "keywords": [
         "Desarrollo Web", "Fullstack", "PHP framework", "UI/UX"
       ]
-    },
-    {
-      "name": "Unreal",
-      "level": "Junior",
-      "keywords": [
-        "Desarrollo VideoJuegos", "Programador", "C++", "Blueprints"
-      ]
-    },
-    {
-      "name": "Blender",
-      "level": "Junior",
-      "keywords": [
-        "Desarrollo VideoJuegos", "Modelado 3D", "Diseño de niveles", "Game Desing"
-      ]
     }
   ],
   "languages": [
@@ -344,12 +321,63 @@
       "github":""
     },
     {
-      "name": "Enigmatic 3D",
+      "name": "Forcap",
       "isActive": true,
-      "description": "Empresa de desarrollo de videojuegos, desarrollos 3D, Modelado y audiovisuales",
-      "highlights": [],
-      "url": "https://enigmatic3d.com",
+      "description": "Landing Page Fondo rotatorio de capacitacion y credito de barrancabermeja",
+      "highlights": [
+        "HTML",
+        "Css"
+      ],
+      "url": "https://barrancabermeja-santander.gov.co/alcaldia/interfaces/proyecto_forcap/",
       "github":""
-    } 
+    },
+    {
+      "name": "Gsi group",
+      "isActive": true,
+      "description": "Landing Page de la empresa GSI GROUP",
+      "highlights": [
+        "HTML",
+        "Css"
+      ],
+      "url": "https://groupgsi.com",
+      "github":""
+    },
+    {
+      "name": "Testik",
+      "isActive": true,
+      "description": "Landing Page de la empresa de inspeccion Testik",
+      "highlights": [
+        "HTML",
+        "Css",
+        "Laravel",
+        "PHP"
+      ],
+      "url": "https://testik.com.co",
+      "github":""
+    },
+    {
+      "name": "Gworks Services",
+      "isActive": true,
+      "description": "Landing Page de la empresa GWORKS SERVICES",
+      "highlights": [
+        "HTML",
+        "Css",
+        "Laravel",
+        "PHP"
+      ],
+      "url": "https://gworks.com.co",
+      "github":""
+    },
+    {
+      "name": "Ecoparque diamante",
+      "isActive": true,
+      "description": "Landing Page de la empresa Ecoparque diamante ",
+      "highlights": [
+        "HTML",
+        "Css"
+      ],
+      "url": "https://ecoparquediamante.com",
+      "github":""
+    }
   ]
 }
