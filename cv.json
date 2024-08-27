@@ -284,42 +284,7 @@
     "name": "Jane Doe",
     "reference": "Reference…"
   }],
-  "projects": [
-    {
-      "name": "overwatch",
-      "isActive": true,
-      "description": "Empresa de desarrollo tecnologico enfocada en tecnologia y optimizacion usando nuevas tecnologias",
-      "highlights": [
-        "NextJS",
-        "Tailwind Css",
-        "AWS"
-      ],
-      "url": "https://overwatch.com.co",
-      "github":""
-    },
-    {
-      "name": "event +",
-      "isActive": true,
-      "description": "Sistema para la gestion de eventos, seguimiento de reuniones, evidencias y generacion de actas.",
-      "highlights": [
-        "NextJS",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://eventplus.com.co",
-      "github":""
-    },
-    {
-      "name": "Vecto",
-      "isActive": true,
-      "description": "Sistema de Gestion de Activos ( Vehiculos )",
-      "highlights": [
-        "NextJs",
-        "JavaScript & TypeScript",
-        "Tailwind Css"
-      ],
-      "url": "https://vecto.com.co",
-      "github":""
-    },
+  "projects": [ 
     {
       "name": "Forcap",
       "isActive": true,
@@ -366,17 +331,6 @@
         "PHP"
       ],
       "url": "https://gworks.com.co",
-      "github":""
-    },
-    {
-      "name": "Ecoparque diamante",
-      "isActive": true,
-      "description": "Landing Page de la empresa Ecoparque diamante ",
-      "highlights": [
-        "HTML",
-        "Css"
-      ],
-      "url": "https://ecoparquediamante.com",
       "github":""
     }
   ]
