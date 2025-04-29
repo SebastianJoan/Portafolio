@@ -7,28 +7,41 @@ import { education } from "@cv"
 <Section title="Educación">
   <ul>
     {
-      education.map(({ institution, startDate, endDate, area }) => {
+      education.map(({ institution, courses, startDate, endDate, area }) => {
         const startYear = new Date(startDate).getFullYear()
         const endYear =
           endDate != null ? new Date(endDate).getFullYear() : "Actual"
         const years = `${startYear} - ${endYear}`
 
         return (
-          <li>
-            <article>
-              <header>
-                <div>
-                  <h3>{institution}</h3>
-                </div>
+        <li>
+          <article>
+            <header>
+              <div>
+                <h3>{institution}</h3>
+              </div>
+              <time>{years}</time>
+            </header>
 
-                <time>{years}</time>
-              </header>
+            <footer>
+              <p>{area}</p>
+            </footer>
 
-              <footer>
-                <p>{area}</p>
-              </footer>
-            </article>
-          </li>
+            <!-- Cursos colapsables -->
+            {
+              courses && courses.length > 0 ? (
+                <details class="details-cursos">
+                  <summary>Ver cursos realizados</summary>
+                  <ul class="cursos-lista">
+                    {courses.map((course) => (
+                      <li>{course}</li>
+                    ))}
+                  </ul>
+                </details>
+              ) : null
+            }
+          </article>
+        </li>
         )
       })
     }
@@ -65,4 +78,65 @@ import { education } from "@cv"
       text-align: right;
     }
   }
+
+
+  .details-cursos {
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid #000;
+  border-radius: 0.375rem;
+  background-color: #f9fafb;
+}
+
+/* El summary como botón */
+.details-cursos summary {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 0.875rem;
+  color: #374151;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;       /* Quita el marcador nativo */
+  margin-bottom: 0.5rem;
+}
+
+/* Ocultar el marker por defecto */
+.details-cursos summary::-webkit-details-marker {
+  display: none;
+}
+.details-cursos summary::marker {
+  content: none;
+}
+
+/* Agregar flechita */
+.details-cursos summary::after {
+  content: '▶';
+  transition: transform 0.2s ease;
+}
+.details-cursos[open] summary::after {
+  transform: rotate(90deg);
+}
+
+/* Lista de cursos */
+.cursos-lista {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding-left: 0;      /* quita padding de UL */
+}
+
+/* Cada curso */
+.cursos-lista li {
+  padding: 0.5rem 1rem;
+  border: 1px solid #000;
+  border-radius: 0.375rem;
+  font-size: 0.875rem;
+  background-color: #fff;
+  transition: background-color 0.2s ease;
+}
+.cursos-lista li:hover {
+  background-color: #f3f4f6;
+}
 </style>

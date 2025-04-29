@@ -2,11 +2,14 @@
   "basics": {
     "name": "Joan Sebastian Giraldo Morales",
     "label": "FullStack Developer",
-    "image": "/me.jpeg",
+    "image": "/me.png",
     "email": "sebastiangiraldo3@gmail.com",
     "phone": "+57 3028319211",
     "url": "https://sgiraldomor.com",
-    "summary": "3 años de experiencia como Ingeniero de sistemas enfocado al sector oil & gas, Creador de diversas Landing pages y sistemas de informacion para diversos negocios, Desarrollador web con conocimientos en; html, js, css, php, laravel, wordpress, tailwindcss, NextJs, Astro, Mysql, Figma, git, Flutter y proximamente Swift",
+    "summary": "Soy Ingeniero de Sistemas con más de cuatro años de experiencia ayudando a empresas a optimizar sus procesos, mejorar su infraestructura tecnológica y desarrollar soluciones digitales a la medida. Actualmente lidero el área de TI en GSI GROUP S.A.S, donde he implementado sistemas que han mejorado la eficiencia operativa, reducido tiempos de respuesta y fortalecido la gestión tecnológica interna.",
+    "summary_0": "Tambien soy cofundador y CTO de Overwatch Services S.A.S, empresa de servicios tecnológicos y digitales, he trabajado en el diseño de soluciones que incluyen desarrollo web, consultorías en ciberseguridad, diseño gráfico, sistemas de videovigilancia, modelado 3D y simuladores interactivos. Nuestro enfoque es brindar herramientas que potencien el crecimiento de los negocios y faciliten su transformación digital.",
+    "summary_1": "En mi trayectoria he colaborado con instituciones públicas como la Alcaldía Distrital de Barrancabermeja, apoyando el diseño de plataformas de servicios ciudadanos y supervisando proyectos sociales enfocados en el beneficio de comunidades vulnerables. También trabajé en CAFABA, mejorando aplicaciones internas y fortaleciendo el soporte tecnológico de sus operaciones.",
+    "summary_2": "Mi experiencia me permite identificar oportunidades de mejora, diseñar estrategias digitales efectivas y ejecutar soluciones prácticas que generan resultados reales para las organizaciones. Estoy preparado para aportar mi conocimiento, capacidad de ejecución y visión estratégica al crecimiento de su empresa.",
     "location": {
       "address": "",
       "postalCode": "",
@@ -34,58 +37,84 @@
   },
   "work": [
     {
-      "name": "Gsi group",
-      "position": "Ingeniero de sistemas",
-      "url": "https://www.groupgsi.com",
-      "startDate": "2021-12-01",
-      "endDate": "2024-06-01",
-      "summary": "Ingeniero de sistemas, lider del area de sistemas, con experiencia en analisis, diseño y desarrollo de soluciones innovadoras que sacien las necesidades de la empresa",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "name": "Cafaba",
-      "position": "Practicante de sistemas",
-      "url": "https://www.cafaba.com.co",
-      "startDate": "2021-03-01",
-      "endDate": "2021-04-30",
-      "summary": "Apoyo en el rediseño y desarrollo de la aplicación web TUCAFI para trabajadores y empresas. Diagnóstico, mantenimiento y reparación de equipos de cómputo en las diferentes oficinas de la empresa.",
-      "highlights": [
-        ""
-      ]
-    },
-    {
       "name": "Alcaldía Distrital de Barrancabermeja",
-      "position": "Tecnologo de sistemas",
-      "url": "",
-      "startDate": "2020-08-01",
-      "endDate": "2020-11-30",
-      "summary": "Apoyó en el diseño y desarrolló de la pagina web del Forcap. Asesoramiento en el manejo de plataformas digitales para el programa de experiencia cero del distrito de Barrancabermeja.",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "name": "Alcaldía Distrital de Barrancabermeja",
-      "position": "Tecnico de sistemas",
-      "url": "",
-      "startDate": "2019-12-01",
-      "endDate": "2019-12-30",
-      "summary": "Apoyó en la supervisión de contratos realizados para el apoyo de las comunidades vulnerables del distrito de Barrancabermeja",
-      "highlights": [
-        ""
-      ]
-    },
-    {
-      "name": "Alcaldía Distrital de Barrancabermeja",
-      "position": "Tecnico de sistemas",
+      "position": "Tecnólogo de Sistemas",
       "url": "",
       "startDate": "2019-06-14",
       "endDate": "2019-11-30",
-      "summary": "Apoyó en la realización de los diferentes eventos de la oficina del FORCAP en cuanto a logística y desempeño, tales como; capacitaciones y ofertas institucionales realizadas en el distrito de Barrancabermeja",
+      "summary": "Apoyé activamente la organización de eventos institucionales del programa FORCAP, facilitando procesos logísticos y de registro digital. Contribuí al fortalecimiento de la participación ciudadana mediante soporte en capacitaciones comunitarias.",
       "highlights": [
-        ""
+        "Gestión logística de eventos distritales, asegurando fluidez y cumplimiento.",
+        "Apoyo en la difusión y ejecución de ofertas institucionales del distrito.",
+        "Facilitación de herramientas digitales durante jornadas de formación."
+      ]
+    },
+    {
+      "name": "Alcaldía Distrital de Barrancabermeja",
+      "position": "Tecnólogo de Sistemas",
+      "url": "",
+      "startDate": "2019-12-01",
+      "endDate": "2019-12-30",
+      "summary": "Participé en la supervisión y seguimiento de contratos destinados a beneficiar comunidades vulnerables. Mi rol contribuyó a asegurar el cumplimiento de metas sociales trazadas por la administración local.",
+      "highlights": [
+        "Monitoreo y verificación del avance de proyectos comunitarios.",
+        "Apoyo técnico en la documentación y control de ejecución de contratos.",
+        "Aseguramiento del impacto de las estrategias sociales implementadas."
+      ]
+    },
+    {
+      "name": "Alcaldía Distrital de Barrancabermeja",
+      "position": "Tecnólogo de Sistemas",
+      "url": "",
+      "startDate": "2020-08-01",
+      "endDate": "2020-11-30",
+      "summary": "Contribuí al diseño y desarrollo de la página web del programa FORCAP, fortaleciendo la presencia digital de la administración. También acompañé a la ciudadanía en el uso de herramientas digitales dentro del programa Experiencia Cero.",
+      "highlights": [
+        "Desarrollo y lanzamiento de una plataforma web informativa y accesible.",
+        "Capacitación a usuarios en el uso de plataformas digitales públicas.",
+        "Facilitación de servicios institucionales a través de medios digitales."
+      ]
+    },
+    {
+      "name": "CAFABA",
+      "position": "Practicante de Sistemas",
+      "url": "https://www.cafaba.com.co",
+      "startDate": "2021-03-01",
+      "endDate": "2021-04-30",
+      "summary": "Apoyé el rediseño de la aplicación web TUCAFI, orientada a trabajadores y empresas afiliadas, mejorando su funcionalidad y accesibilidad. También brindé soporte técnico en múltiples sedes, garantizando la continuidad operativa.",
+      "highlights": [
+        "Contribución directa al rediseño de una plataforma de servicios empresariales.",
+        "Diagnóstico y mantenimiento preventivo de infraestructura tecnológica.",
+        "Apoyo al equipo de sistemas en soluciones rápidas y efectivas a nivel operativo."
+      ]
+    },
+    {
+      "name": "GSI GROUP S.A.S",
+      "position": "Líder de TI e Ingeniero de Sistemas",
+      "url": "https://www.gsigroupsas.com",
+      "startDate": "2021-05-01",
+      "endDate": "Actualidad",
+      "summary": "Lidero el área de tecnología, donde diseño soluciones digitales adaptadas a las necesidades de la empresa. Mi trabajo ha permitido automatizar procesos clave, reducir tiempos operativos y optimizar el manejo de la información en áreas técnicas, administrativas y logísticas.",
+      "highlights": [
+        "Desarrollo de sistemas internos para mejorar la trazabilidad de activos y procesos.",
+        "Implementación de infraestructura VPS para alojar servicios críticos.",
+        "Mejoras continuas en flujos de trabajo a través de herramientas digitales.",
+        "Apoyo estratégico en decisiones tecnológicas alineadas con la operación de campo."
+      ]
+    },
+    {
+      "name": "Overwatch Services S.A.S",
+      "position": "Cofundador y CTO",
+      "url": "https://www.overwatch.com.co",
+      "startDate": "2024-06-01",
+      "endDate": "Actualidad",
+      "summary": "Como CTO y cofundador de Overwatch Services, lidero la visión tecnológica y estratégica de una empresa que nace para transformar cómo se accede a soluciones digitales en Colombia. Desde su fundación, he sido responsable de impulsar el crecimiento desde cero, definir las líneas de negocio, construir un portafolio de servicios basado en necesidades reales del mercado y asegurar que cada solución ofrecida tenga un impacto tangible en nuestros clientes. Nuestro enfoque no es solo crear, sino hacer que cada proyecto haga avanzar a quienes confían en nosotros.",
+      "highlights": [
+        "Liderazgo en la creación de una empresa tecnológica enfocada en resultados concretos.",
+        "Definición y ejecución de estrategias de crecimiento desde la fase cero.",
+        "Construcción de un portafolio de servicios alineado a necesidades reales de empresas y personas.",
+        "Implementación de soluciones en desarrollo web, ciberseguridad, diseño gráfico, seguridad electrónica, modelado 3D y más.",
+        "Visión técnica centrada en la escalabilidad y sostenibilidad de cada proyecto desarrollado."
       ]
     }
   ],
@@ -284,16 +313,18 @@
     "name": "Jane Doe",
     "reference": "Reference…"
   }],
-  "projects": [ 
+  "projects": [  
     {
-      "name": "Forcap",
+      "name": "Overwatch Services",
       "isActive": true,
-      "description": "Landing Page Fondo rotatorio de capacitacion y credito de barrancabermeja",
+      "description": "Pagina web Overwatch services",
       "highlights": [
         "HTML",
-        "Css"
+        "Css",
+        "React",
+        "NextJs"
       ],
-      "url": "https://barrancabermeja-santander.gov.co/alcaldia/interfaces/proyecto_forcap/",
+      "url": "https://overwatch.com.co",
       "github":""
     },
     {
@@ -306,20 +337,18 @@
       ],
       "url": "https://groupgsi.com",
       "github":""
-    },
+    }, 
     {
-      "name": "Testik",
+      "name": "Forcap",
       "isActive": true,
-      "description": "Landing Page de la empresa de inspeccion Testik",
+      "description": "Landing Page Fondo rotatorio de capacitacion y credito de barrancabermeja",
       "highlights": [
         "HTML",
-        "Css",
-        "Laravel",
-        "PHP"
+        "Css"
       ],
-      "url": "https://testik.com.co",
+      "url": "https://barrancabermeja-santander.gov.co/alcaldia/interfaces/proyecto_forcap/",
       "github":""
-    },
+    }, 
     {
       "name": "Gworks Services",
       "isActive": true,
